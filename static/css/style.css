@@ -1,7 +1,66 @@
+/* @import url("") */
+
 body {
-	font-size: 40px;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: "Poppins";
 }
 
-.login {
-	border: 3px solid;
+h1 {
+	scale: 1.5;
+}
+
+textarea {
+	width: 800px;
+	height: 200px;
+	border-radius: 15px;
+	border: 1px solid black;
+	font-size: 24px;
+	font-family: "Poppins";
+}
+
+p {
+	scale: 1.2;
+}
+
+.container {
+	overflow: hidden;
+}
+.bg1 {
+	height: 618px;
+	background-image: url("../svg/bg1.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 63%;
+	scale: 1.06;
+	position: relative;
+}
+
+.components {
+	position: absolute;
+	align-self: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	top: 20%;
+	left: 25%;
+}
+
+button {
+	font-size: 22px;
+	font-family: "Poppins";
+	color: white;
+	background-image: linear-gradient(to right, #089e7b, #008c95);
+	border-radius: 10px;
+	padding: 10px;
+	width: 350px;
+	border: none;
+	margin-top: 5px;
+}
+
+form {
+	margin-top: 5px;
+	text-align: center;
+	align-self: center;
 }
